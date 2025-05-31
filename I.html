@@ -3,20 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook Clone</title>
+    <style>
+        body {
+            background-color: rgb(232, 240, 247);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            border: 3px solid black;
+            text-align: center;
+            margin: 100px auto;
+            padding: 40px;
+            width: 50%;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+        .title {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .welcome {
+            color: aqua;
+            margin-top: 20px;
+        }
+        .login-btn a {
+            text-decoration: none;
+            color: white;
+        }
+        .login-btn {
+            background-color: blue;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: darkblue;
+        }
+    </style>
 </head>
-  <Style>
-    body{
-        background-color: rgb(232, 240, 247);
-    }
-  </Style>
 <body>
-    
-    <div style="border: 3px solid black; text-align: center; margin: 200px; padding: auto;">
-        <h1 style="background-color: blue; text-align: center;">Facebook</h1>
-
-    <H1 style="color: aqua;padding: auto;">Welcome to Facebook</H1>
-    <Button style="background-color: blue; text-decoration: blueviolet;padding: auto; margin-bottom: 3px;"><a href="Facebook.html">Log In</a></Button>
+    <div class="container">
+        <h1 class="title">Facebook</h1>
+        <h1 class="welcome">Welcome to Facebook</h1>
+        <button class="login-btn">
+            <a href="Facebook.html">Log In</a>
+        </button>
     </div>
 </body>
 </html>
